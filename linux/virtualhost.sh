@@ -18,3 +18,8 @@ echo -e "<VirtualHost *:80>\n\
 sudo a2ensite "customsite.conf"
 sudo systemctl restart apache2
 echo -e "\n127.0.0.1 www.customsite.lan" | sudo tee -a "/etc/hosts"
+
+# Now you should be able to see what is in:
+#     /var/www/html/customsite.lan/public_html/index.html
+# simply visiting:
+#     wwww.customsite.lan
