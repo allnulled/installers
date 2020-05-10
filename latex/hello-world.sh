@@ -1,4 +1,4 @@
 #!/usr/bin/bash
 
-text hello-world.pdf
+pdflatex hello-world.tex
 evince hello-world.pdf
