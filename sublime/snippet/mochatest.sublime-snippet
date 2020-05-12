@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+const { expect } = require("chai");
+
+describe("${1:Test title}", function() {
+	this.timeout(1000 * 5);
+
+	before(function() {
+		//
+	});
+
+	after(function() {
+		// 
+	});
+
+	it("${2:Specification title}", function(done) {
+		${3}
+		done();
+	});
+
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mochatest</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
